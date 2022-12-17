@@ -1,3 +1,4 @@
+import { RecipesModule } from './recipes/recipes.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -34,7 +35,8 @@ import { PlaceholderDirective } from './shared/placeholder/placeholder.directive
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RecipesModule
   ],
   providers: [
     ShoppingListService,
