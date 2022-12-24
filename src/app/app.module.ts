@@ -15,6 +15,7 @@ import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinne
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { AlertComponent } from './shared/alert/alert.component';
 import { PlaceholderDirective } from './shared/placeholder/placeholder.directive';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { PlaceholderDirective } from './shared/placeholder/placeholder.directive
     HttpClientModule,
     AppRoutingModule,
     ShoppingListModule,
+    SharedModule
   ],
   providers: [
     ShoppingListService,
